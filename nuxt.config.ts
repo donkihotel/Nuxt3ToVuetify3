@@ -18,4 +18,16 @@ export default defineNuxtConfig({
       baseUrl: process.env.BASE_URL || '/',
     },
   },
+
+  app: {
+    baseURL: '/Nuxt3ToVuetify3/',
+  },
+
+  nitro: {
+    prerender: {
+      crawlLinks: false,
+      routes: [],
+      failOnError: false,
+    },
+  },
 });
