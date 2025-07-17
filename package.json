@@ -1,0 +1,49 @@
+{
+  "name": "nuxt3vuetify3auto",
+  "version": "0.1.0",
+  "description": "Nuxt 3, Pinia and Vuetify",
+  "keywords": [
+    "nuxt 3",
+    "pinia",
+    "vuetify",
+    "typescript",
+    "sass"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "nuxt dev",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".ts,.vue\" --ignore-path .gitignore . --fix",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write --list-different .",
+    "http-start": "npx http-server ./dist -c-1 -p 3001 -a localhost"
+  },
+  "devDependencies": {
+    "@mdi/js": "^7.4.47",
+    "@nuxtjs/eslint-config-typescript": "12.0.0",
+    "@pinia/testing": "0.0.15",
+    "@types/node": "^22.5.1",
+    "@typescript-eslint/eslint-plugin": "5.56.0",
+    "@vitejs/plugin-vue": "4.1.0",
+    "eslint": "8.36.0",
+    "eslint-config-prettier": "8.8.0",
+    "jsdom": "21.1.1",
+    "npm-run-all": "4.1.5",
+    "nuxt": "^3.17.7",
+    "prettier": "2.8.7",
+    "sass": "1.60.0",
+    "typescript": "5.0.2",
+    "vue-eslint-parser": "9.1.0"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "0.4.7",
+    "node-sass": "^9.0.0",
+    "vue": "^3.3.4",
+    "vuetify": "3.7.1"
+  }
+}
