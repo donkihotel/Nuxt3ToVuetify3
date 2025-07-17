@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   },
   css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css'],
   build: {
-    transpile: [/vuetify/],
+    transpile: ['vuetify'],
   },
   vite: {
     define: {
@@ -27,9 +27,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      crawlLinks: false,
-      routes: ['/', '/about'],
-      failOnError: false,
-    }
+      routes: ['/'],
+    },
   },
 });
