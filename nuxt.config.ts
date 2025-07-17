@@ -19,6 +19,8 @@ export default defineNuxtConfig({
     },
   },
 
+  ssr: false,
+
   app: {
     baseURL: '/Nuxt3ToVuetify3/',
   },
