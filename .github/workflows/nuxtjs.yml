@@ -74,9 +74,6 @@ jobs:
       - name: Build
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
 
-      - name: Export
-        run: npx nuxi export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
