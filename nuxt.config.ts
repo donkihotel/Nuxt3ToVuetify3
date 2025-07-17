@@ -27,8 +27,8 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/anl', '/dsn', '/dev', '/imp', '/sec', '/prf', '/ml', '/trn', '/ops', '/products'],
-      crawlLinks: true,
+      crawlLinks: false,
+      routes: [], // 수동 지정
       failOnError: false,
     },
   },
